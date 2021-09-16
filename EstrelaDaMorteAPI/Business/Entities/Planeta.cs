@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Business.Entities
 {
     public class Planeta
     {
+        [Key]
         public int IdPlaneta { get; set; }
         public string Nome { get; set; }
         public double Rotacao { get; set; }
