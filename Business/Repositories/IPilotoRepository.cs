@@ -8,6 +8,6 @@ namespace Business.Repositories
         void Adicionar(Piloto piloto);
         void Commit();
 
-        IList<Nave> obterPorPiloto(int idPiloto);
+        IList<Piloto> obterPorPiloto(int idPiloto);
     }
 }
