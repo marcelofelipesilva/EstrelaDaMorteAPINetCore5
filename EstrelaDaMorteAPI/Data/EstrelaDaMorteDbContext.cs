@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Data
 {
-    public class EstrelaDaMorteDBContext : DbContext
+    public class EstrelaDaMorteDbContext : DbContext
     {
-        public EstrelaDaMorteDBContext(DbContextOptions<EstrelaDaMorteDBContext>options) : base(options)
+        public EstrelaDaMorteDbContext(DbContextOptions<EstrelaDaMorteDbContext>options) : base(options)
         {
             
         }
@@ -18,10 +18,7 @@ namespace Infra.Data
             modelBuilder.ApplyConfiguration(new PlanetaMapping());
             base.OnModelCreating(modelBuilder);
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        { 
-            optionsBuilder.UseSqlServer(@"Server=172.17.0.6;Database=EstrelaDaMorte;User Id=sa;Password=App@12345;");
-        }
+       
 
         public DbSet<Nave> Naves { get; set; }
         public DbSet<Piloto> Pilotos { get; set; }
