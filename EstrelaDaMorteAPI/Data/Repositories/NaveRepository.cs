@@ -8,8 +8,8 @@ namespace Infra.Data.Repositories
 {
     public class NaveRepository : INaveRepository
     {
-        private readonly EstrelaDaMorteDBContext _context;
-        public NaveRepository(EstrelaDaMorteDBContext context)
+        private readonly EstrelaDaMorteDbContext _context;
+        public NaveRepository(EstrelaDaMorteDbContext context)
         {
             _context = context;
         }
