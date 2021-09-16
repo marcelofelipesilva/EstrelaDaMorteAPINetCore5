@@ -22,14 +22,4 @@
       <Compile Remove="WeatherForecast.cs" />
       <Compile Remove="Controllers\WeatherForecastController.cs" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Business\Business.csproj" />
-      <ProjectReference Include="..\Infra\Infra.csproj" />
-    </ItemGroup>
-
 </Project>
