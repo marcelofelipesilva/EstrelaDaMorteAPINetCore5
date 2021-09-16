@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstrelaDaMorteAPI", "EstrelaDaMorteAPI\EstrelaDaMorteAPI.csproj", "{C068B8B1-C8B7-4CC4-BA1C-EA196909C838}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C068B8B1-C8B7-4CC4-BA1C-EA196909C838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C068B8B1-C8B7-4CC4-BA1C-EA196909C838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C068B8B1-C8B7-4CC4-BA1C-EA196909C838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C068B8B1-C8B7-4CC4-BA1C-EA196909C838}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
